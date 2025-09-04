@@ -7,6 +7,8 @@ import path from 'path'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
   base: '/doctoradoAplicado/', // 👈 importante
+  // para que el build vaya directo a /docs (lo que usa GitHub Pages)
+  build: { outDir: 'docs' },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
