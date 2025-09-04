@@ -2,7 +2,7 @@
   "name": "micrositio-udd-pais-digital",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lbravoc.github.io/proyectosEmpresas/",
+  "homepage": "https://lbravoc.github.io/doctoradoAplicado/",
   "type": "module",
   "scripts": {
     "dev": "vite",
